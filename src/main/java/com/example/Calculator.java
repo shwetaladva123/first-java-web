@@ -18,4 +18,20 @@ public class Calculator {
     {
         return a / b;
     }
+    public Double Square(Double a)
+    {
+        return a*a;
+    }
+    public Double Power(Double a,Double b)
+    {
+        Double ans = 1.0;
+        while(b != 0)
+        {
+            ans *= a;
+            --b;
+        }
+
+     
+        return ans;
+    }
 }
